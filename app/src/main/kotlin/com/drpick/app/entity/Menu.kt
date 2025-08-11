@@ -31,8 +31,8 @@ class Menu(
 	@Column(name = "spicy_level")
 	val spicyLevel: Int = 0,  // 0: 안매움, 1-5: 매운 정도
 
-	@Column(name = "has_liquid")
-	val hasLiquid: Boolean = false,  // 국물/소스 여부 (흰옷 고려)
+	@Column(name = "has_liquid_or_sauce")
+	val hasLiquidOrSauce: Boolean = false,  // 국물/소스 여부 (흰옷 고려)
 
 	@Column(name = "is_diet_frienly")
 	val isDietFrienly: Boolean = false,  // 다이어트 적합성

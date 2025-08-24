@@ -35,7 +35,7 @@ class Menu(
     val hasLiquidOrSauce: Boolean = false,  // 국물/소스 여부 (흰옷 고려)
 
     @Column(name = "is_diet_frienly")
-    val isDietFrienly: Boolean = false,  // 다이어트 적합성
+    val isDietFriendly: Boolean = false,  // 다이어트 적합성
 
     @Enumerated(EnumType.STRING)
     @Column(name = "price_range")
